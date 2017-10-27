@@ -17,7 +17,7 @@ baseurl: ""
 title: someonething
 
 # Short description of your site
-description: just me muttering
+description: a bit of this and a bit of that
 
 # --- Navigation bar options --- #
 
@@ -224,5 +224,6 @@ prose:
 plugins:
   - jekyll-paginate
 
+encoding: utf-8
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

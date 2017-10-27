@@ -32,13 +32,19 @@ RUN gem install jekyll-redirect-from -v 0.10.0
 RUN gem install jemoji -v 0.6.2
 RUN gem install github-pages -v 82
 
-
-
 RUN mkdir -p /app
 ADD ./ /app
 
 WORKDIR /app
 
 EXPOSE 4000
+
+RUN apt-get update && \
+    apt-get install locales && \
+    locale-gen en_US.UTF-8 && \
+    localedef -i en_US -f UTF-8 en_US.UTF-8
+
+ENV LANG en_US.UTF-8
+ENV LC_ALL en_US.UTF-8
 
 CMD bundle exec jekyll serve
