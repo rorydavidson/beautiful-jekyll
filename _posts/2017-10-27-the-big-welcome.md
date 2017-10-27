@@ -7,8 +7,6 @@ categories: blah
 
 And here I am
 
-{% instagram Baer63SlNhr %}
-
 **Hold on to your horses**
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
