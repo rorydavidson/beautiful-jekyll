@@ -11,6 +11,6 @@ And here I am
 
 **Hold on to your horses**
 
-How about a yummy crepe?
+How about a squirrel?
 
-![Flight](https://photos.app.goo.gl/g9LWjzUHEQevwdS52)
+![Flight](/img/squirrel.jpg)
