@@ -16,7 +16,7 @@ Any software development project involves looking for the best balance between e
 At the moment, our most commonly used APIs are those used in the SNOMED CT Browser, amongst the first ones that we developed (SNOMED CT Snapshot REST API). This has been the ideal place to start, looking to see how we can provide more standardized APIs so that any consumers can expect the same standard.
 
 
-And like magic this has been done and v2 of the API has now been deployed. More details can be found here - http://ihtsdo.github.io/sct-snapshot-rest-api/api.html.
+And like magic this has been done and v2 of the API has now been deployed. More details can be found here - [http://ihtsdo.github.io/sct-snapshot-rest-api/api.html](http://ihtsdo.github.io/sct-snapshot-rest-api/api.html).
 
 
 The main highlight is the JSON representation of a concept, which uses standard terms for the labels, instead of shortcuts like the current version, and provides most things that would be needed to represent a SNOMED CT concept in one call
