@@ -4,7 +4,6 @@ title: Bring on the v2
 subtitle: Revamping APIs
 date: '2017-10-12 12:01:47 +0100'
 tags: [snomed, api]
-img: /img/sct.jpg
 ---
 
 Over the last few years, the team at SNOMED International have implemented a number of open REST APIs as part of the rapid development of tools to manage and interact with SNOMED CT.
