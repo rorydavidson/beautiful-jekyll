@@ -4,7 +4,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 before_script: ./bin/build
-script: ./bin/test
+# script: ./bin/test
 
 
 deploy:
