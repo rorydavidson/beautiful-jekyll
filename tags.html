@@ -7,12 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>someonething - a bit of this and a bit of that</title>
+  <title>Tags</title>
 
   <meta name="author" content="Rory Davidson">
 
-  
-  <meta name="description" content="my mutterings">
   
 
   <link rel="alternate" type="application/rss+xml" title="someonething - a bit of this and a bit of that" href="/feed.xml">
@@ -48,6 +46,10 @@
   
 
   
+    
+      <link rel="stylesheet" href="/css/tags.css">
+    
+  
 
   
 
@@ -55,19 +57,19 @@
   
 
   
-  <meta property="og:title" content="someonething">
+  <meta property="og:title" content="Tags">
   
 
    
-  <meta property="og:description" content="my mutterings">
+  <meta property="og:description" content="{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %} {% assign tags_list = site_tags | split:',' | sort %} {% for item in (0..site.tags.size) %}{% unless forloop.last %}{% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}...">
   
 
 
   <meta property="og:type" content="website">
 
   
-  <meta property="og:url" content="http://localhost:4000/">
-  <link rel="canonical" href="http://localhost:4000/">
+  <meta property="og:url" content="http://localhost:4000/tags">
+  <link rel="canonical" href="http://localhost:4000/tags">
   
 
   
@@ -81,11 +83,11 @@
   <meta name="twitter:creator" content="@rhmd">
 
   
-  <meta name="twitter:title" content="someonething">
+  <meta name="twitter:title" content="Tags">
   
 
   
-  <meta name="twitter:description" content="my mutterings">
+  <meta name="twitter:description" content="{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %} {% assign tags_list = site_tags | split:',' | sort %} {% for item in (0..site.tags.size) %}{% unless forloop.last %}{% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}...">
   
 
   
@@ -205,12 +207,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-heading">
-          <h1>someonething</h1>
-		  
-		    
-            <hr class="small">
-            <span class="page-subheading">my mutterings</span>
-			
+          <h1>Tags</h1>
 		  
 		  
 		  
@@ -227,95 +224,40 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="posts-list">
+      
+<p><a href="#api" class="btn btn-primary"><i class="fa fa-tag"></i> api</a><a></a>
+<a href="#blah" class="btn btn-primary"><i class="fa fa-tag"></i> blah</a><a></a>
+<a href="#snomed" class="btn btn-primary"><i class="fa fa-tag"></i> snomed</a><a></a></p>
+
+<h3 id="api">
+<i class="fa fa-tag"></i> api</h3>
+<ul class="post-list">
   
-  <article class="post-preview">
-    <a href="/2017-10-27-in-the-air/">
-	  <h2 class="post-title">In the air</h2>
-
-	  
-	  <h3 class="post-subtitle">
-	    Staring from the plane
-	  </h3>
-	  
-    </a>
-
-    <p class="post-meta">
-      Posted on October 27, 2017
-    </p>
-
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        Whenever I fly, I try to get photos of the sky so here’s a collection of a few. From landing into Hong Kong to taking off from Wellington, New Zealand.
-
-
-        
-        
-          <a href="/2017-10-27-in-the-air/" class="post-read-more">[Read More]</a>
-        
-      </div>
-    </div>
-
-    
-    <div class="blog-tags">
-      Tags:
-      
-      
-      <a href="/tag/blah">blah</a>
-      
-      
-    </div>
-    
-
-   </article>
+    <li>
+<i class="fa fa-calendar-check-o"></i> <span class="entry-date"><time datetime="2017-10-12T12:01:47+01:00">October 12, 2017</time></span> <i class="fa fa-newspaper-o"></i> <a href="http://localhost:4000/2017-10-12-revamping-apis/">Bring on the v2</a>
+</li>
   
-  <article class="post-preview">
-    <a href="/2017-10-12-revamping-apis/">
-	  <h2 class="post-title">Bring on the v2</h2>
+  </ul>
 
-	  
-	  <h3 class="post-subtitle">
-	    Revamping APIs
-	  </h3>
-	  
-    </a>
-
-    <p class="post-meta">
-      Posted on October 12, 2017
-    </p>
-
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        Over the last few years, the team at SNOMED International have implemented a number of open REST APIs as part of the rapid development of tools to manage and interact with SNOMED CT.
-
-
-        
-        
-          <a href="/2017-10-12-revamping-apis/" class="post-read-more">[Read More]</a>
-        
-      </div>
-    </div>
-
-    
-    <div class="blog-tags">
-      Tags:
-      
-      
-      <a href="/tag/snomed">snomed</a>
-      
-      <a href="/tag/api">api</a>
-      
-      
-    </div>
-    
-
-   </article>
+<h3 id="blah">
+<i class="fa fa-tag"></i> blah</h3>
+<ul class="post-list">
   
-</div>
+    <li>
+<i class="fa fa-calendar-check-o"></i> <span class="entry-date"><time datetime="2017-10-27T12:01:47+01:00">October 27, 2017</time></span> <i class="fa fa-newspaper-o"></i> <a href="http://localhost:4000/2017-10-27-in-the-air/">In the air</a>
+</li>
+  
+  </ul>
 
-
+<h3 id="snomed">
+<i class="fa fa-tag"></i> snomed</h3>
+<ul class="post-list">
+  
+    <li>
+<i class="fa fa-calendar-check-o"></i> <span class="entry-date"><time datetime="2017-10-12T12:01:47+01:00">October 12, 2017</time></span> <i class="fa fa-newspaper-o"></i> <a href="http://localhost:4000/2017-10-12-revamping-apis/">Bring on the v2</a>
+</li>
+  
+  </ul>
 
 	    
     </div>
