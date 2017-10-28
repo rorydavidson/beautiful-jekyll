@@ -227,6 +227,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-mentions
+  - jekyll-feed
+  - jemoji
+  - jekyll-archives
+  - jekyll-redirect-from
 
 safe: false
 
