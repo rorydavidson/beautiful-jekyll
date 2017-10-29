@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Why the blog
-subtitle: as if
 show-avatar: false
 ---
 
@@ -13,4 +12,4 @@ Sadly, I didn't get the sentient response I had expected, (one day... one day, I
 
 Since then, I've picked up a lot of things I have done to make it easier to work with technology, and get it do what I wanted, not what it wanted. So I thought, makes sense to write some of it down.
 
-That's pretty much it. 
+That's pretty much it.
