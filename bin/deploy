@@ -4,7 +4,7 @@ set -e # halt script on error
 rm -rf _site
 mkdir _site
 
-git clone ${PRIVATE_TOKEN}@github.com:rorydavidson/rorydavidson.github.io.git --branch master _site
+git clone https://${PRIVATE_TOKEN}@github.com/rorydavidson/rorydavidson.github.io.git --branch master _site
 
 bundle exec jekyll build
 
