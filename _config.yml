@@ -24,6 +24,9 @@ description: a bit of this and a bit of that
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Blog:
+    - Tags: "tags"
+    - Sitemap: "sitemap"
   Resources:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Repos: "https://github.com/rorydavidson"
@@ -231,6 +234,8 @@ plugins:
   - jemoji
   - jekyll-archives
   - jekyll-redirect-from
+  - json
+
 
 safe: false
 
