@@ -45,9 +45,9 @@ avatar: "/img/avatar-me.jpg"
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-# navbar-col: "orange"
+navbar-col: "lightgreen"
 # navbar-img: "/img/bgimage.png"
-# footer-col: "blue"
+# footer-col: "grey"
 # footer-img: "/img/bgimage.png"
 # page-col: "#FF0000"
 # page-img: "/img/bgimage.png"
@@ -59,22 +59,11 @@ avatar: "/img/avatar-me.jpg"
 author:
   name: Rory Davidson
   email: "rory@someonething.com"
-  facebook: yourname  # eg. daattali
   github: rorydavidson    # eg. daattali
   twitter: rhmd   # eg. daattali
-  reddit: yourname    # eg. daattali
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: yourname  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
+  linkedin: rorydavidson  # eg. daattali
   instagram: groovebutcher # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
-  steam: yourname     # eg. daattali
-  twitch: yourname    # eg. daattali
-  yelp: yourname      # eg. daattali
+  spotify: rhmd72   # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
@@ -85,13 +74,13 @@ footer-links-active:
   google-plus: false
   github: true
   reddit: false
-  linkedin: false
+  linkedin: true
   xing: false
   stackoverflow: false
   snapchat: false
   instagram: true
   youtube: false
-  spotify: false
+  spotify: true
   telephone: false
   steam: false
   twitch: false
@@ -113,7 +102,7 @@ share-links-active:
 disqus: "someonething"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-108863647-1"
 
 # Google Tag Manager ID
 #gtm: ""
