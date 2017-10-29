@@ -10,6 +10,7 @@ bundle exec jekyll build
 
 cd _site
 cp ../CNAME .
+cp ../README.md .
 git config user.email "rory.davidson@gmail.com"
 git config user.name "Rory Davidson"
 git add --all
