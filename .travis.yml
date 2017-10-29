@@ -2,20 +2,17 @@ language: ruby
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+branches:
+  only:
+  - source
 
-before_script: ./bin/build
-# script: ./bin/test
+rvm:
+- 2.2.3
 
-
-deploy:
-  provider: pages
-  github-token: $PRIVATE_TOKEN
-  target-branch: master
-  local-dir: _site
-  project-name: blog
-  email: rory.davidson@gmail.com
-  name: Deployment bot
-
-  skip_cleanup: true
-  on:
-    branch: source
+before_script:
+ - chmod +x ./bin/deploy
+# path to our build script.
+# Travis will run `bundle install` by default before running our script
+script: ./bin/deploy
+exclude: [vendor]
+sudo: false
