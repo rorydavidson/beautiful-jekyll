@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: someonething
+title: rorydavidson
 
 # Short description of your site
 description: a bit of this and a bit of that
@@ -25,10 +25,10 @@ description: a bit of this and a bit of that
 navbar-links:
   About Me: "aboutme"
   Blog:
+    - Why the blog?: "blog"
     - Tags: "tags"
     - Sitemap: "sitemap"
   Resources:
-    - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Repos: "https://github.com/rorydavidson"
     - Work: "http://www.snomed.org"
 
