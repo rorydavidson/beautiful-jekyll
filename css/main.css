@@ -103,7 +103,7 @@ img {
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
-  background: lightgreen;
+  background: lightblue;
   
   
 }
@@ -267,6 +267,8 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
+  
+  background: aliceblue;
   
   
 }
