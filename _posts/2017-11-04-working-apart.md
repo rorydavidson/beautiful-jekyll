@@ -7,12 +7,12 @@ tags: [working practice]
 bigimg: /img/islands.jpg
 ---
 
-One of the things that the team in SNOMED International excels at is working together considering we all work from remote locations. We live all around the globe from the east coast of the US to the west of Australia, and only rarely are in the same town. This means we have to be aware of timezones and cultural differences (even speaking the same language), and make best use of the technology to help communicate effectively.
+One of the things that the team at {% extlink SNOMED International https://www.snomed.org %} excels at is working together, considering we all work from remote locations. We live all around the globe from the east coast of the US to the west of Australia, and only rarely are in the same town. This means we have to be aware of timezones, cultural differences (even when we speak the same language), and make best use of the technology to help communicate effectively.
 
 So, here are some tips of how we have done it and what we do it with.
 
 ## The tools we use
-We make use of many of the great tools available for remote workings, and after a number of years of trial and error, we use the following:
+We have used many of the tools available for remote working and after a number of years of trial and error, we now use the following:
 
 * **Zoom** - {% extlink Zoom https://zoom.us %} is probably the best, most effective and value for money online conference service that we have used. It provides all the usual features and more that you would expect with software which runs on any platform, a wide range of international dial in numbers and has out performed any other tools we have used for it’s efficient use of bandwidth. We previously used GoToMeeting, and whilst it is a great tool, Zoom has enabled us to do a lot more for a lot less with a lot less difficulty. The only part of the Zoom package we have not really used is the chat. It seems to be a quick attempt to add messaging into the package more than a fully fledged messaging tool, and other, better known options are far superior for this. Which leads to messaging...
 
